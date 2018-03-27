@@ -111,7 +111,7 @@ n_per_year <-
             aes(year,
                 n + 10,
                 label = paste0("Maximum in ", year),
-                hjust = 0)) +
+                hjust = 1)) +
   geom_vline(data = odmp %>% count(year, sort = TRUE) %>% slice(1),
                        aes(xintercept = year),
              colour = "red") +
