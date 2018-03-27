@@ -1,0 +1,13 @@
+Package: odmp
+Type: Package
+Title: Officer Down Memorial Page Data
+Version: 0.1.0
+Authors@R: c(person("Ben", "Marwick", role = c("aut", "cre"), email = "benmarwick@gmail.com"))
+Maintainer: Ben Marwick <benmarwick@gmail.com>
+Description: Contains data on US law enforcement officers killed while on duty during 1971-2018. The data are obtained from the internet site <https://www.odmp.org>.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+URL: https://github.com/benmarwick/odmp
+BugReports: https://github.com/benmarwick/odmp/issues
